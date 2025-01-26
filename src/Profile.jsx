@@ -92,7 +92,7 @@ export default function App() {
           <p className="text-xl mt-4">Aspiring Developer | Tech Enthusiast</p>
           <div className="mt-8">
             <img
-              src="src/assets/SSS_5014.JPG"
+              src="./assets/SSS_5014.JPG"
               alt="Profile"
               className="mx-auto rounded-full w-33 h-33 object-cover"
             />
@@ -128,7 +128,7 @@ export default function App() {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
               <div className="flex flex-col items-center">
                 <img
-                  src="src/assets/python.png"
+                  src="./assets/python.png"
                   alt="Python"
                   className="w-20 h-20 mb-2"
                 />
@@ -137,7 +137,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-                  src="src/assets/JavaScript.png"
+                  src="./assets/JavaScript.png"
                   alt="JavaScript"
                   className="w-20 h-20 mb-2"
                 />
@@ -148,7 +148,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-                  src="src/assets/React.png"
+                  src="./assets/React.png"
                   alt="React"
                   className="w-20 h-20 mb-2"
                 />
@@ -157,7 +157,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-                  src="src/assets/CSS3.png"
+                  src="./assets/CSS3.png"
                   alt="CSS"
                   className="w-20 h-20 mb-2"
                 />
@@ -166,7 +166,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-                  src="src/assets/HTML5 (1).png"
+                  src="./assets/HTML5 (1).png"
                   alt="HTML"
                   className="w-20 h-20 mb-2"
                 />
@@ -175,7 +175,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-                  src="src/assets/Tailwind CSS.png"
+                  src="./assets/Tailwind CSS.png"
                   alt="Tailwind CSS"
                   className="w-20 h-20 mb-2"
                 />
@@ -186,7 +186,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-                  src="src/assets/MySQL.png"
+                  src="./assets/MySQL.png"
                   alt="Node.js"
                   className="w-20 h-20 mb-2"
                 />
@@ -195,7 +195,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-                  src="src/assets/Git.png"
+                  src="./assets/Git.png"
                   alt="Git"
                   className="w-20 h-20 mb-2"
                 />
@@ -248,7 +248,7 @@ export default function App() {
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
-                  src="src/assets/Screenshot 2025-01-26 171424.png"
+                  src="./assets/Screenshot 2025-01-26 171424.png"
                   alt="Calculator"
                   className="w-full h-40 object-cover rounded-md"
                 />
@@ -268,7 +268,7 @@ export default function App() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
-                  src="src/assets/Screenshot 2025-01-26 171256.png"
+                  src="./assets/Screenshot 2025-01-26 171256.png"
                   alt="Recipe Blog"
                   className="w-full h-40 object-cover rounded-md"
                 />
@@ -289,7 +289,7 @@ export default function App() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
-                  src="src/assets/image (1).png"
+                  src="./assets/image (1).png"
                   alt="Bitcoin Price Prediction"
                   className="w-full h-40 object-cover rounded-md"
                 />
@@ -391,7 +391,7 @@ export default function App() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="src/assets/download.png"
+                  src="./assets/download.png"
                   alt="GitHub"
                   className="w-8 h-8"
                 />
@@ -402,7 +402,7 @@ export default function App() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="src/assets/linkedin-logo-png-2026.png"
+                  src="./assets/linkedin-logo-png-2026.png"
                   alt="LinkedIn"
                   className="w-8 h-8"
                 />
