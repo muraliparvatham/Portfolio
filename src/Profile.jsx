@@ -92,11 +92,7 @@ export default function App() {
           <p className="text-xl mt-4">Aspiring Developer | Tech Enthusiast</p>
           <div className="mt-8">
             <img
-<<<<<<< HEAD
               src="./public/Images/SSS_5014.JPG"
-=======
-              src="./assets/SSS_5014.JPG"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
               alt="Profile"
               className="mx-auto rounded-full w-33 h-33 object-cover"
             />
@@ -132,11 +128,7 @@ export default function App() {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
               <div className="flex flex-col items-center">
                 <img
-<<<<<<< HEAD
                   src="./public/Images/python.png"
-=======
-                  src="./assets/python.png"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
                   alt="Python"
                   className="w-20 h-20 mb-2"
                 />
@@ -145,11 +137,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-<<<<<<< HEAD
                   src="./public/Images/JavaScript.png"
-=======
-                  src="./assets/JavaScript.png"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
                   alt="JavaScript"
                   className="w-20 h-20 mb-2"
                 />
@@ -160,11 +148,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-<<<<<<< HEAD
                   src="./public/Images/React.png"
-=======
-                  src="./assets/React.png"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
                   alt="React"
                   className="w-20 h-20 mb-2"
                 />
@@ -182,11 +166,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-<<<<<<< HEAD
                   src="./public/Images/HTML5 (1).png"
-=======
-                  src="./assets/HTML5 (1).png"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
                   alt="HTML"
                   className="w-20 h-20 mb-2"
                 />
@@ -195,11 +175,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-<<<<<<< HEAD
                   src="./public/Images/Tailwind CSS.png"
-=======
-                  src="./assets/Tailwind CSS.png"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
                   alt="Tailwind CSS"
                   className="w-20 h-20 mb-2"
                 />
@@ -210,11 +186,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-<<<<<<< HEAD
                   src="./public/Images/MySQL.png"
-=======
-                  src="./assets/MySQL.png"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
                   alt="Node.js"
                   className="w-20 h-20 mb-2"
                 />
@@ -223,11 +195,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-<<<<<<< HEAD
                   src="./public/Images/Git.png"
-=======
-                  src="./assets/Git.png"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
                   alt="Git"
                   className="w-20 h-20 mb-2"
                 />
@@ -280,11 +248,7 @@ export default function App() {
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
-<<<<<<< HEAD
                   src="./public/Images/Screenshot 2025-01-26 171424.png"
-=======
-                  src="./assets/Screenshot 2025-01-26 171424.png"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
                   alt="Calculator"
                   className="w-full h-40 object-cover rounded-md"
                 />
@@ -304,11 +268,7 @@ export default function App() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
-<<<<<<< HEAD
                   src="./public/Images/Screenshot 2025-01-26 171256.png"
-=======
-                  src="./assets/Screenshot 2025-01-26 171256.png"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
                   alt="Recipe Blog"
                   className="w-full h-40 object-cover rounded-md"
                 />
@@ -329,11 +289,7 @@ export default function App() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
-<<<<<<< HEAD
                   src="./public/Images/image (1).png"
-=======
-                  src="./assets/image (1).png"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
                   alt="Bitcoin Price Prediction"
                   className="w-full h-40 object-cover rounded-md"
                 />
@@ -435,11 +391,7 @@ export default function App() {
                 rel="noopener noreferrer"
               >
                 <img
-<<<<<<< HEAD
                   src="./public/Images/download.png"
-=======
-                  src="./assets/download.png"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
                   alt="GitHub"
                   className="w-8 h-8"
                 />
@@ -450,11 +402,7 @@ export default function App() {
                 rel="noopener noreferrer"
               >
                 <img
-<<<<<<< HEAD
                   src="./public/Images/linkedin-logo-png-2026.png"
-=======
-                  src="./assets/linkedin-logo-png-2026.png"
->>>>>>> 6364b020158342cce125a64857a043bce1ea99af
                   alt="LinkedIn"
                   className="w-8 h-8"
                 />
