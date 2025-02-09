@@ -92,7 +92,7 @@ export default function App() {
           <p className="text-xl mt-4">Aspiring Developer | Tech Enthusiast</p>
           <div className="mt-8">
             <img
-              src="/assets/SSS_5014.JPG"
+              src="./public/Images/SSS_5014.JPG"
               alt="Profile"
               className="mx-auto rounded-full w-33 h-33 object-cover"
             />
