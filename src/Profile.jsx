@@ -110,7 +110,7 @@ export default function App() {
               JavaScript, ReactJS, and Tailwind. My curiosity drives me to
               explore emerging technologies like ReactJS and Node.js. I’ve
               worked on projects like Bitcoin price prediction using LSTM,
-              Calculator, and Recipe blog.
+              Calculator, and Expense Tracker.
             </p>
             <a
               href="Murali Parvatham.pdf"
