@@ -10,7 +10,7 @@ export default function App() {
   });
 
   const handleInputChange = (e) => {
-    const { name, email, value } = e.target;
+    const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
@@ -22,13 +22,14 @@ export default function App() {
     const userID = "MhPhq_pgNNQORZXh1"; // This is the public key from EmailJS
 
     const templateParams = {
-      user_name: "Murali Parvatham", // Match the variable names in your EmailJS template
-      user_email: formData.name,
-      user_message: formData.message, // Ensure this also matches the template
+      to_name: "Murali",
+      from_name: formData.name, // Match the variable names in your EmailJS template
+      user_email: formData.email,
+      message: formData.message, // Ensure this also matches the template
     };
 
     emailJS
-      .send(serviceID, templateID, formData, userID)
+      .send(serviceID, templateID, templateParams, userID)
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
         alert("Thank you for reaching out!");
@@ -92,7 +93,7 @@ export default function App() {
           <p className="text-xl mt-4">Aspiring Developer | Tech Enthusiast</p>
           <div className="mt-8">
             <img
-              src="./public/Images/SSS_5014.JPG"
+              src="/SSS_5014.JPG"
               alt="Profile"
               className="mx-auto rounded-full w-33 h-33 object-cover"
             />
@@ -128,7 +129,7 @@ export default function App() {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
               <div className="flex flex-col items-center">
                 <img
-                  src="./src/assets/Python.png"
+                  src="/Python.png"
                   alt="Python"
                   className="w-20 h-20 mb-2"
                 />
@@ -137,7 +138,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-                  src="./src/assets/JavaScript.png"
+                  src="/JavaScript.png"
                   alt="JavaScript"
                   className="w-20 h-20 mb-2"
                 />
@@ -147,26 +148,18 @@ export default function App() {
               </div>
 
               <div className="flex flex-col items-center">
-                <img
-                  src="./src/assets/React.png"
-                  alt="React"
-                  className="w-20 h-20 mb-2"
-                />
+                <img src="/React.png" alt="React" className="w-20 h-20 mb-2" />
                 <p className="text-xl font-semibold text-gray-800">React</p>
               </div>
 
               <div className="flex flex-col items-center">
-                <img
-                  src="./src/assets/CSS3.png"
-                  alt="CSS"
-                  className="w-20 h-20 mb-2"
-                />
+                <img src="/CSS3.png" alt="CSS" className="w-20 h-20 mb-2" />
                 <p className="text-xl font-semibold text-gray-800">CSS</p>
               </div>
 
               <div className="flex flex-col items-center">
                 <img
-                  src=".src/assets/HTML5 (1).png"
+                  src="/HTML5 (1).png"
                   alt="HTML"
                   className="w-20 h-20 mb-2"
                 />
@@ -175,7 +168,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-                  src=".src/assets/Tailwind CSS.png"
+                  src="/Tailwind CSS.png"
                   alt="Tailwind CSS"
                   className="w-20 h-20 mb-2"
                 />
@@ -186,7 +179,7 @@ export default function App() {
 
               <div className="flex flex-col items-center">
                 <img
-                  src="./src/assets/MySQL.png"
+                  src="/MySQL.png"
                   alt="Node.js"
                   className="w-20 h-20 mb-2"
                 />
@@ -194,11 +187,7 @@ export default function App() {
               </div>
 
               <div className="flex flex-col items-center">
-                <img
-                  src="./src/assets/Git.png"
-                  alt="Git"
-                  className="w-20 h-20 mb-2"
-                />
+                <img src="/Git.png" alt="Git" className="w-20 h-20 mb-2" />
                 <p className="text-xl font-semibold text-gray-800">Git</p>
               </div>
             </div>
@@ -248,7 +237,7 @@ export default function App() {
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
-                  src="./src/assets/Screenshot 2025-01-26 171424.png"
+                  src="/Screenshot 2025-01-26 171424.png"
                   alt="Calculator"
                   className="w-full h-40 object-cover rounded-md"
                 />
@@ -268,7 +257,7 @@ export default function App() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
-                  src="./src/assets/Screenshot 2025-01-26 171256.png"
+                  src="/Screenshot 2025-01-26 171256.png"
                   alt="Recipe Blog"
                   className="w-full h-40 object-cover rounded-md"
                 />
@@ -289,7 +278,7 @@ export default function App() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
-                  src="./src/assets/image (1).png"
+                  src="/image (1).png"
                   alt="Bitcoin Price Prediction"
                   className="w-full h-40 object-cover rounded-md"
                 />
@@ -390,11 +379,7 @@ export default function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src="./src/assets/download.png"
-                  alt="GitHub"
-                  className="w-8 h-8"
-                />
+                <img src="/download.png" alt="GitHub" className="w-8 h-8" />
               </a>
               <a
                 href="https://www.linkedin.com/in/muraliparvatham2002/"
@@ -402,7 +387,7 @@ export default function App() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="./src/assets/linkedin-logo-png-2026.png"
+                  src="/linkedin-logo-png-2026.png"
                   alt="LinkedIn"
                   className="w-8 h-8"
                 />
