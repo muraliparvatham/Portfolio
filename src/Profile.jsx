@@ -113,7 +113,7 @@ export default function App() {
               Calculator, and Expense Tracker.
             </p>
             <a
-              href="Murali Parvatham.pdf"
+              href="/Murali Parvatham.pdf"
               target="_blank"
               rel="noreferrer"
               className="mt-6 inline-block text-white bg-orange-500 px-6 py-2 rounded-md hover:bg-orange-600"
@@ -278,7 +278,7 @@ export default function App() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
-                  src="/image (1).png"
+                  src="/image (1) (1).jpg"
                   alt="Bitcoin Price Prediction"
                   className="w-full h-40 object-cover rounded-md"
                 />
