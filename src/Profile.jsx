@@ -71,7 +71,7 @@ export default function App() {
                 </a>
               </li>
               <li>
-                <a href="#project" className="hover:text-orange-500">
+                <a href="#projects" className="hover:text-orange-500">
                   Projects
                 </a>
               </li>
